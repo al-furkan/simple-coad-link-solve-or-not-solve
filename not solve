@@ -1,0 +1,27 @@
+//https://www.spoj.com/problems/ALCATRAZ1/
+#include<bits/stdc++.h>
+using namespace std;
+int power(int base)
+{
+    int res = 0;
+    while(base)
+    {
+       res+= base%10;
+       base/=10;
+
+    }
+    return res;
+}
+
+int main() {
+    int a;
+    cin>>a;
+    int n;
+    while(a--){
+    cin>>n;
+    int c = power(n);
+    cout<<c<<endl;
+    }
+    return 0;
+}
+
