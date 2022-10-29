@@ -1,0 +1,274 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    background-color: rgb(6, 93, 128);
+}
+
+.main-wapper {
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    background:black;
+}
+
+.hader-wapper {
+    width: 1200px;
+    height: 100px;
+    margin: auto;
+}
+
+#logo {
+    width: 20%;
+    height: 100px;
+    float: left;
+}
+
+#baner {
+    width: 80%;
+    height: 100px;
+    float: right;
+}
+
+.manuber {
+    width: 1200px;
+    height: 50px;
+    background: rgb(33, 41, 33);
+    color: aqua;
+}
+
+#manu {
+    padding: 0;
+    margin: 0;
+    line-height: 40px;
+    float: left;
+}
+
+#manu li {
+    list-style: none;
+    display: inline;
+}
+
+#manu a {
+    text-decoration: none;
+    color: aliceblue;
+    padding: 8px;
+    margin: 5px;
+    font-size: 18px;
+    font-family: COMIC SANS MS;
+}
+
+#manu a:hover {
+    color: orange;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+#form {
+    float: right;
+    padding-right: 8px;
+    line-height: 40px;
+}
+
+
+.content-wapper {
+    width: 1200px;
+    /*height: 800px;*/
+    margin: auto;
+    background: rgb(70, 35, 228);
+}
+
+#content-area {
+    width: 1000px;
+  /*height: 800px;*/
+    float: right;
+    background: rgb(32, 153, 143);
+}
+
+#sideber {
+    width: 200px;
+    height: 800px;
+    background: rgb(14, 12, 14);
+    float: left;
+}
+
+#sideber-titel {
+    background: white;
+    color: black;
+    font-size: 22px;
+    font-family: arial;
+    padding: 10px;
+    text-align: center;
+}
+
+.bat {
+    text-align: center;
+}
+
+.bat li {
+    list-style: none;
+    margin: 5px;
+}
+
+.bat a {
+    color: antiquewhite;
+    padding: 8px;
+    margin: 5px;
+    font-size: 18px;
+    text-decoration: none;
+    font-family: comic Sans MS;
+}
+
+.bat a:hover {
+    color: orange;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+.product_box{
+  width: 980px;
+  text-align: center;
+  margin-left: 30px;
+  margin-bottom: 10px;
+
+}
+#fo {
+    margin-top:50px;
+    text-align: center;
+    padding: 10px;
+    line-height: 50px;
+
+}
+#fo input{
+  font-size: 20px;
+  background-color: orange;
+}
+#fo input:hover{
+  background-color: red;
+}
+ .single_product{
+   float: left;
+   margin-left: 30px;
+   padding: 10px;
+ }
+ .single_product img{
+   border: 3px solid black;
+ }
+ .shopping_card{
+   width: 1000px;
+   height: 50px;
+   background: black;
+   color: white;
+ }
+
+#footer {
+    width: 1200px;
+    height: 100px;
+    background: gray;
+    clear: both;
+}
